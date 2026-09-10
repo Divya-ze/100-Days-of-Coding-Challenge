@@ -1,0 +1,31 @@
+//Q48: Write a program to print the following pattern:
+
+
+/*
+Sample Test Cases:
+Input 1:
+
+Output 1:
+1
+12
+123
+1234
+12345
+
+*/
+#include<stdio.h>
+int main(void)
+{
+int i,j;
+for (i=1;i<=5;i++)
+{
+j=1;
+while(j<=i)
+{
+printf("%d",j);
+j=j+1;
+}
+printf("\n");
+}
+return 0;
+}
